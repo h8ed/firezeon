@@ -60,7 +60,8 @@ toolbarbutton#alltabs-button { -moz-binding: url("userChrome.xml#js"); }
 /* ---------------------------Tab styling   
                                                        */ 
 #browser-panel, #TabsToolbar{
-  background-color: #612525 !important;
+  /* background-color: #612525 !important; */
+  background-image: linear-gradient(#612525, #333333) !important;
 }
 
 /* R I G H T   C L I C K   M E N U */
@@ -255,7 +256,8 @@ tooltip {
 
 .tabbrowser-tab:not([visuallyselected]):not(:hover) .tab-background {
   /* background: none !important; */
-  background-color: #612525 !important;
+  /* background-color: #612525 !important; */
+  background-image: linear-gradient(#612525, #333333) !important;
   transition: var(--unhover-animation) !important; 
 }
 
